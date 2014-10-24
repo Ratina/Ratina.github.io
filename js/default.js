@@ -1,3 +1,3 @@
-$(document).ready(function () {
-    $('nav.navbar').find('li#'+nav).addClass('active');
-});
+// $(document).ready(function () {
+//     $('nav.navbar').find('li#'+nav).addClass('active');
+// });
