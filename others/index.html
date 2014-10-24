@@ -1,0 +1,15 @@
+---
+layout: default
+title: 拉汀那
+---
+
+<div id="home">
+  <h1>博文列表</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<script type="text/javascript" src="/js/others.js"></script>
