@@ -1,8 +1,10 @@
 ---
-layout: default
-title: 拉汀那
+layout: post
+title:  "拉汀那"
+date:   2014-07-31 17:17:45
+categories: Ratina nothing
+jumbotron: <h1>拉汀那</h1>
 ---
-
 <div id="home">
   <h1>博文列表</h1>
   <ul class="posts">
@@ -11,5 +13,3 @@ title: 拉汀那
     {% endfor %}
   </ul>
 </div>
-
-<script type="text/javascript" src="/js/others.js"></script>
