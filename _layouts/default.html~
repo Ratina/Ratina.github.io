@@ -29,9 +29,10 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li id="pana"><a href="/pana">The Lang</a></li>
-            <li id="others"><a href="/others">Others</a></li>
+            <ul class="nav navbar-nav">
+                <li id="blog"{% if page.group =="blog"%} class="active"{% endif %}><a href="/blog">Blog</a></li>
+                <li id="pana"{% if page.group == "pana"%} class="active"{% endif %}><a href="/pana">The Lang</a></li>
+                <li id="others"{% if page.group == "others"%} class="active"{% endif %}><a href="/others">Others</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -64,12 +65,13 @@ noc_hp            <ul class="list-unstyled">
 
     </div>
 
-    <!-- <script src="/js/less.js" type="text/javascript"></script> -->
+    <script src="/js/less.js" type="text/javascript"></script>
 
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <!-- <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script> -->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
-    <!-- <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> -->
-    <!-- <script src="/js/default.js"></script> -->
+    <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="/js/default.js"></script>
+    {{ script }}
   </body>
 </html>
