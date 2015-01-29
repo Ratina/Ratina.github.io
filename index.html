@@ -3,18 +3,34 @@ layout: default
 title:  "拉汀那"
 date:   2014-07-31 17:17:45
 categories: Ratina nothing
-jumbotron: <h1>拉汀那</h1>
 ---
-<div id="home">
-  <h1>博文</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_normal }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-
-  <h1>语言</h1>
-  <p>
+{% capture jumbo %}
+<div class="container">
+    <h1><strong>Ratina</strong></h1>
+    <h2>Meet the language for the 25th century NOW!</h2>
 </div>
+{% endcapture %}
 
-{% include disqus.html %}
+{% capture content %}
+<div class="row">
+    <div class="col-md-6">
+        <div class="page-header">
+            <h1>博文</h1>
+        </div>
+        <ul class="posts">
+            {% for post in site.posts %}
+            <li><span>{{ post.date | date_normal }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <div class="page-header">
+            <h1>语言</h1>
+        </div>
+    </div>
+</div>
+<div class="row">
+    {% include disqus.html %}
+</div>
+{% endcapture %}
+{% include jumbopage.html %}

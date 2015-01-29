@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: normal
 title: 语言
 group: lang
 ---
