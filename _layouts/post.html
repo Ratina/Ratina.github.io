@@ -29,12 +29,6 @@ group: blog
                     </form>
                 </div><!--/.search-->
     			
-    			<div class="widget categories">
-                    <h3>Comments</h3>
-                    <div class="row">
-                        {% include disqus.html %}
-                    </div>                
-                </div>
                 <div class="widget categories">
                     <h3>Categories</h3>
                     <div class="row">
@@ -42,13 +36,18 @@ group: blog
                             <ul class="blog_category">
                                 {% assign sortedcats = site.categories | sort %}
                                 {% for category in sortedcats %}
-                                <li><a href="/blog/{{ category | first }}">{{ category | first }}<span class="badge">{{ category | last | size }}</span></a></li>
+                                <li><a href="/categories/{{ category | first }}">{{ category | first }}<span class="badge">{{ category | last | size }}</span></a></li>
                                 {% endfor %}
                             </ul>
                         </div>
                     </div>                     
                 </div><!--/.categories-->
-    			
+    			<div class="widget categories">
+                    <h3>Comments</h3>
+                    <div class="row">
+                        {% include disqus.html %}
+                    </div>                
+                </div>    			
     			<!-- <div class="widget archieve">
                      <h3>Archieve</h3>
                      <div class="row">

@@ -2,7 +2,7 @@
 layout: post
 title: "次世代语言传播媒介的多样化"
 date: 2015-01-28 10:20:00
-categories: lang medium
+categories: lang
 ---
 
 昨天心血来潮和别人探讨了一番除了文字和语音以外别的语言传播方式。
