@@ -2554,3 +2554,7 @@ shortcodes page css
 .white-link:active {
     color: #fff;
 }
+
+.media-avatar {
+    width: 145px;
+}
