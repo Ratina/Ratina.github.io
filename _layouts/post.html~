@@ -2,6 +2,9 @@
 layout: default
 group: blog
 ---
+
+{% capture content %}
+
 <h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_normal }}</p>
 
@@ -9,3 +12,6 @@ group: blog
 {{ content }}
 </div>
 {% include disqus.html %}
+
+{% endcapture %}
+{% include normal.html %}

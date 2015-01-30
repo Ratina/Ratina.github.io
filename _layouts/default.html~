@@ -39,19 +39,8 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-
-    {% if page.jumbotron %}
-    <div class="jumbotron">
-      <div class="container">
-        {{ page.jumbotron }}
-      </div>
-    </div>
-    {% endif %}
-
+    {{ content }}
     <div class="container">
-
-      {{ content }}
-
       <footer role="contentinfo">
         <div class="row">
           <div class="col-lg-12">
@@ -64,9 +53,7 @@
           </div>
         </div>
       </footer>
-
     </div>
-
     <script src="/js/less.js" type="text/javascript"></script>
 
     <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
