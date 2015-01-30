@@ -1,10 +1,183 @@
 ---
-layout: default
-title: Pana
-group: pana
+layout: lang
+title: 语言
+group: lang
 ---
 
-<div id="home">
-  <h1>Pana</h1>
+<section id="feature" class="transparent-bg">
+<div class="container">
+<div class="center wow fadeInDown">
+<h2>The ✪ project</h2>
+<p class="lead">Meet the language in the 23rd century, NOW!</p>
 </div>
 
+<div class="row">
+<div class="features">
+<div class="row">
+<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+<div class="feature-wrap">
+<i class="fa fa-bullhorn"></i>
+<h2>Extremely extensible</h2>
+<h3>A ✪0 meta-language project that defines other languages</h3>
+</div>
+</div><!--/.col-md-4-->
+
+<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+<div class="feature-wrap">
+<i class="fa fa-comments"></i>
+<h2>Multi-dimensional</h2>
+<h3>Prepared for information storage and transfer in a vast range of media</h3>
+</div>
+</div><!--/.col-md-4-->
+<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+<div class="feature-wrap">
+<i class="fa fa-cloud-download"></i>
+<h2>Easy to customize</h2>
+<h3>Design your own language!</h3>
+</div>
+</div><!--/.col-md-4-->
+</div>
+<div class="row">
+
+<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+<div class="feature-wrap">
+<i class="fa fa-leaf"></i>
+<h2>Computer friendly</h2>
+<h3>Easily parsable, unambiguous</h3>
+</div>
+</div><!--/.col-md-4-->
+
+<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+<div class="feature-wrap">
+<i class="fa fa-cogs"></i>
+<h2>Culturally neutral</h2>
+<h3>Culturally neutral to everyone, except Ratina team members :D</h3>
+</div>
+</div><!--/.col-md-4-->
+
+<div class="col-md-4 col-sm-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+<div class="feature-wrap">
+<i class="fa fa-heart"></i>
+<h2>Unleash your intellegence</h2>
+<h3>Let's boost up your IQ, and destroy your EQ!</h3>
+</div>
+</div><!--/.col-md-4-->
+</div>
+</div><!--/.services-->
+</div><!--/.row--> 
+
+
+<div class="get-started center wow fadeInDown">
+<h2>Ready to get started</h2>
+<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore  magna aliqua. <br>  Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
+<div class="request">
+<h4><a href="#">Request a free Quote</a></h4>
+</div>
+</div><!--/.get-started-->
+
+<div class="clients-area center wow fadeInDown">
+<h2>What our client says</h2>
+<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+</div>
+
+<div class="row">
+<div class="col-md-4 wow fadeInDown">
+<div class="clients-comments text-center">
+<img src="images/client1.png" class="img-circle" alt="">
+<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</h3>
+<h4><span>-John Doe /</span>  Director of corlate.com</h4>
+</div>
+</div>
+<div class="col-md-4 wow fadeInDown">
+<div class="clients-comments text-center">
+<img src="images/client2.png" class="img-circle" alt="">
+<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</h3>
+<h4><span>-John Doe /</span>  Director of corlate.com</h4>
+</div>
+</div>
+<div class="col-md-4 wow fadeInDown">
+<div class="clients-comments text-center">
+<img src="images/client3.png" class="img-circle" alt="">
+<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</h3>
+<h4><span>-John Doe /</span>  Director of corlate.com</h4>
+</div>
+</div>
+</div>
+
+</div><!--/.container-->
+</section><!--/#feature-->
+
+
+<section id="bottom">
+<div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+<div class="row">
+<div class="col-md-3 col-sm-6">
+<div class="widget">
+<h3>Company</h3>
+<ul>
+<li><a href="#">About us</a></li>
+<li><a href="#">We are hiring</a></li>
+<li><a href="#">Meet the team</a></li>
+<li><a href="#">Copyright</a></li>
+<li><a href="#">Terms of use</a></li>
+<li><a href="#">Privacy policy</a></li>
+<li><a href="#">Contact us</a></li>
+</ul>
+</div>    
+</div><!--/.col-md-3-->
+
+<div class="col-md-3 col-sm-6">
+<div class="widget">
+<h3>Support</h3>
+<ul>
+<li><a href="#">Faq</a></li>
+<li><a href="#">Blog</a></li>
+<li><a href="#">Forum</a></li>
+<li><a href="#">Documentation</a></li>
+<li><a href="#">Refund policy</a></li>
+<li><a href="#">Ticket system</a></li>
+<li><a href="#">Billing system</a></li>
+</ul>
+</div>    
+</div><!--/.col-md-3-->
+
+<div class="col-md-3 col-sm-6">
+<div class="widget">
+<h3>Developers</h3>
+<ul>
+<li><a href="#">Web Development</a></li>
+<li><a href="#">SEO Marketing</a></li>
+<li><a href="#">Theme</a></li>
+<li><a href="#">Development</a></li>
+<li><a href="#">Email Marketing</a></li>
+<li><a href="#">Plugin Development</a></li>
+<li><a href="#">Article Writing</a></li>
+</ul>
+</div>    
+</div><!--/.col-md-3-->
+
+<div class="col-md-3 col-sm-6">
+<div class="widget">
+<h3>Our Partners</h3>
+<ul>
+<li><a href="#">Adipisicing Elit</a></li>
+<li><a href="#">Eiusmod</a></li>
+<li><a href="#">Tempor</a></li>
+<li><a href="#">Veniam</a></li>
+<li><a href="#">Exercitation</a></li>
+<li><a href="#">Ullamco</a></li>
+<li><a href="#">Laboris</a></li>
+</ul>
+</div>    
+</div><!--/.col-md-3-->
+</div>
+</div>
+</section><!--/#bottom-->
+
+
+# 项目清单
+
+|项目|描述|当前稳定版|发布日期|当前开发版|发布日期|备注|
+|---|---|---|---|---|---|---|
+|Pana|基于状态迁移的脑残语言|/|/|0.0.1-beta|2014年2月24日|/|
+|Sria|基于左侧树展开的脑残语言|/|/|/|/|/|
