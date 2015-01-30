@@ -2135,12 +2135,16 @@ ul.faq li > div h3 {
 }
 
 .blog .blog-item .blog-content h3 {
-  color: #858586;
-  margin-bottom: 40px;
+    /* color: #858586; */
+    color: #4e4e4e;
+  margin-bottom: 20px;
+  font-size: 24px;
   /* font-weight: 300 */}
 
 .blog .blog-item .blog-content h4 {
-  font-size: 14px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 
 .post-tags {
