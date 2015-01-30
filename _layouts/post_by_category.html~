@@ -5,6 +5,8 @@ date:   2014-07-31 17:17:45
 group: blog
 ---
 
+{{ page.path }}
+
 <div id="home">
     <div class="text-right">
         {% include paginator.html %}

@@ -2558,3 +2558,7 @@ shortcodes page css
 .media-avatar {
     width: 145px;
 }
+
+.post-excerpt {
+    margin-bottom: 50px;
+}

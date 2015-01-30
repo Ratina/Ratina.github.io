@@ -1,0 +1,21 @@
+<ul class="pagination pagination-lg">
+    {% if paginator.previous_page %}
+    <li>
+        <a href="{{ paginator.previous_page_path}}"><i class="fa fa-long-arrow-left"></i>上一页</a>
+    </li>
+    {% else %}
+    <li class="disabled">
+        <a href="#"><i class="fa fa-long-arrow-left"></i>上一页</a>
+    </li>
+    {% endif %}
+    <li class="disabled"><a aria-hidden="true">{{ paginator.page }} / {{ paginator.total_pages }}</a></li>
+    {% if paginator.next_page %}
+    <li>
+        <a href="{{ paginator.next_page_path}}"><i class="fa fa-long-arrow-right"></i>下一页</a>
+    </li>
+    {% else %}
+    <li class="disabled">
+        <a href="#"><i class="fa fa-long-arrow-right"></i>下一页</a>
+    </li>
+    {% endif %}
+</ul><!--/.pagination-->
