@@ -7,7 +7,7 @@ categories: lang
 
 昨天心血来潮和别人探讨了一番除了文字和语音以外别的语言传播方式。
 
-![](/images/wave_reflection.gif)
+{% include pretty_photo.html src="/images/wave_reflection.gif" %}
 
 我们先罗列一下人的神经系统及各个器官所支持的各种感觉及原理：
 
