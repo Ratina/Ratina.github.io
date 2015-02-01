@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 次世代的i18n瑞士军刀——Grammatical Framework
-date: {}
+date: 2015-02-01 00:24:00
 categories: lang gf
 published: true
 ---
