@@ -1,8 +1,9 @@
 ---
 layout: post
-title: 次世代的i18n瑞士军刀——Grammatical Framework
+title: 次世代的i18n瑞士军刀——Grammatical Framework (1)
 date: 2015-02-01 00:24:00
 categories: lang gf
+author: si
 published: true
 ---
 

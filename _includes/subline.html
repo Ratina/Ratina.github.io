@@ -1,0 +1,8 @@
+<div class="subline">
+    {% if include.author %}
+    {% assign author = include.author %}
+    {% else %}
+    {% assign author = site.authors['si'] %}
+    {% endif %}
+    <img style="width: 2.0em; vertical-align: middle;" src="{{ author.avatar }}" alt="{{ author.display_name }}"> {{ include.date | date: site.date_format }}
+</div>

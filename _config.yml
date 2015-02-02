@@ -18,6 +18,13 @@ paginate_path: "blog/page:num/"
 
 github_username: KenetJervet
 
+date_format: '%Y年%-m月%-d日'
+
 collections:
   lang_event:
     - a
+
+authors:
+  si:
+    display_name: Savor d'Isavano
+    avatar: /images/ratina_people/me.png

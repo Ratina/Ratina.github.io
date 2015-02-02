@@ -3,7 +3,6 @@ layout: default
 group: blog
 ---
 
-{% assign author = site.authors[page.author] %}
 <section id="blog" class="container">
     <div class="blog">
         <div class="row">
@@ -11,13 +10,6 @@ group: blog
                 <div class="blog-item">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 blog-content">
-                            <div class="center">
-                                <h2>{{ page.title }}</h2>
-                                {% if page.subtitle %}<p class="lead">{{ page.subtitle }}</p>{% endif %}
-                            <div class="pull-left">
-                                {% include subline.html author=author date=page.date %}
-                            </div>
-                            </div>
                             <div>
                                 {{ content }}
                             </div>

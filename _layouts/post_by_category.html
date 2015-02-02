@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: postbase
 title:  "博文列表"
 date:   2014-07-31 17:17:45
 group: blog
@@ -7,18 +7,24 @@ group: blog
 
 {% assign path_sections = page.path | split: "/" %}
 {% assign cat = path_sections[1] %}
-
-<div id="home">
-    <div class="posts">
-        {% for post in site.posts %}
-        {% if post.categories contains cat %}
-        <div class="post-excerpt">
-            <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-            <p class="author">
-                <span class="date">{{ post.date | date_normal }}</span>
-            </p>
+<div class="row">
+    <div class="col-xs-12 col-sm-12 blog-content">
+        <div class="center">
+            <h2>{{ page.title }}</h2>
         </div>
-        {% endif %}
-        {% endfor %}
+
+        <div id="home">
+            <div class="posts">
+                {% for post in site.posts %}
+                {% if post.categories contains cat %}
+                {% assign author = site.authors[post.author] %}
+                <div class="post-excerpt">
+                    {% include subline.html author=author date=post.date %}
+                    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
     </div>
 </div>

@@ -1,0 +1,1 @@
+<div class="author"><img style="width: 2.0em; vertical-align: middle;" src="{{ include.author.avatar }}" alt="{{ include.author.display_name }}"> {{ page.date | date: site.date_format }}</p></div>
