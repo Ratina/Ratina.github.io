@@ -66,5 +66,9 @@ jQuery(function($) {'use strict',
 	//Pretty Photo
 	$("a[rel^='prettyPhoto']").prettyPhoto({
 		social_tools: false
-	});	
+	});
+
+                    $('.top-banner .top-banner-handle').click(function () {
+                        $('.top-banner .top-banner-content-container').slideToggle(400);
+                    })
 });

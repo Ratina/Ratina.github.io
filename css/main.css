@@ -2529,6 +2529,42 @@ shortcodes page css
   margin-left: 15px;
 }
 
+/* Savor d'Isavano custom styles. */
+
+.top-banner {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    color: #000000;
+    z-index: 4400;
+    width: 100%;
+}
+
+.top-banner .top-banner-content-container {
+    background-color: #33cc33;
+    box-shadow: 3px 3px 5px #000000;
+    border-radius: 0 0 3px 3px;
+    display: none;
+    padding: 20px 20px;
+    overflow: hidden;
+}
+
+.top-banner .top-banner-handle-container {
+    position: absolute;
+    width: 100%;
+    font-weight: bold;
+}
+
+.top-banner .top-banner-handle {
+    background-color: #33cc33;
+    box-shadow: 3px 3px 5px #000000;
+    border-radius: 0 0 3px 3px;
+    max-width: 20%;
+    padding: 4px;
+    cursor: pointer;
+    z-index: 4401;
+}
+
 
 .white-link {
     color: #fff;
